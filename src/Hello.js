@@ -1,10 +1,15 @@
-import React from "react";
 
-const Hello = () => {
+import React from 'react';
+
+function Hello() {
     return (
-        <h1>Hello World</h1>
-        )
+      <div className="App">
 
-}
+      <h1>Hello</h1>
+      
+      </div>
+    );
+  }
+  
+  export default Hello; 
 
-export default Hello
